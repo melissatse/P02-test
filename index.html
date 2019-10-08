@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jocale.</title>
+
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="products.html">
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/fonts.css">
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1>jocole.</h1>
+
+      <p>This is our style guide. </p>
+      <p> It’s a simple statement that helps to guide how we look and represent ourselves.</p>
+
+      <!-- STYLE GUIDE NAVIGATION BAR -->
+
+      <ul>
+        <li><a href="#about_jacole">About Jacole</a></li>
+        <li><a href="#visual_elements">Visual Elements</a></li>
+        <li><a href="#interactive_elements">Interactive Elements</a></li>
+        <li><a href="#text_elements">Text Elements</a></li>
+        <li><a href="#combined_elements">Combined Elements</a></li>
+        <li><a href="https://www.sfu.ca/~mta89/P01_Jocale%20Style%20Guide%20V1/products.html">Product Listing Template</a></li>
+        <li><a href="https://www.sfu.ca/~mta89/P01_Jocale%20Style%20Guide%20V1/checkout.html">Checkout Template</a></li>
+        <li><a href="#citations">Citations</a></li>
+      </ul>
+
+
+    <!-- ABOUT JACOLE SECTION // -->
+    <section id="about_jacole">
+      <h3>About Jocale</h3>
+      <p>Handcrafted fine jewelry for the everyday.</p>
+
+      <p> We believe luxury should be accessible, fun, and part of your everyday. New, high-quality, modern, minimalistic earrings, necklaces, bracelets, and rings are made available to her every week.</p>
+
+      <h3>Intended Users</h3>
+      <figure>
+        <img src ="images/persona_2.png" alt= "this should be jocale's persona" width="200px" height="200px">
+        <img src ="images/persona_1.png" alt= "this should be jocale's persona" width="200px" height="200px">
+        <img src ="images/persona_3.png" alt= "this should be jocale's persona" width="200px" height="200px">
+      <figcaption> Our inspiration comes from you; real, smart, mindful women. </figcaption>
+    </figure>
+
+
+      <h3>Why Jocale?</h3>
+
+      <p> Latin word for "jewelry". We work with top jewelers, who commit to exceptional craftsmanship and ethical practices, to produce quality essentials. We free ourselves from middlemen and sell directly to you, so, we can provide fine jewelry at a fraction of the price. It is our mission to have women embrace a daily dose of luxury. These strategies make the brand stand out in a crowded marketplace.</p>
+
+
+    </section>
+
+
+    <!-- // VISUAL ELEMENTS SECTION -->
+
+
+    <section id="visual_elements">
+      <h6>Visual Elements</h6>
+
+      <section class="element">
+
+
+      <h3>Logos / Icons</h3>
+      <p>In cases when the Jocale brand has already been established we simply use the icon on its own. While the icon can exist without the wordmark, the wordmark should never exist without the icon.</p>
+
+
+      <h4>Sample code:</h4>
+      <code>  &lt;img src ="images/logo_mark_tan.png" alt= "this should be jocale's logo" width="70px" height="70px"&gt; </code>
+
+      <h4>Rendered element:</h4>
+
+     <!-- //LOGOS AND ICONS IN PX RATHER THAN % BECAUSE STATING IT'S RESTRICTED SIZES-->
+
+     <figure>
+      <img src ="images/logo_mark_tan.png" alt= "this should be jocale's logo" width="100px" height="100px">
+      <img src ="images/logo_mark_beige.png" alt= "this should be jocale's logo" width="100px" height="100px">
+      <figcaption> Fig.1 Jocale's wordmark logo. </figcaption>
+
+     </figure>
+
+    <figure>
+      <img src ="images/logo_black.png" alt= "this should be jocale's logo" width="100px" height="100px">
+      <img src ="images/logo_tan.png" alt= "this should be jocale's logo" width="100px" height="100px">
+      <img src ="images/logo_beige.png" alt= "this should be jocale's logo" width="100px" height="100px">
+      <figcaption> Fig.2 Jocale's logo on coloured backgrounds. </figcaption>
+    </figure>
+
+    <figure>
+      <img src ="images/logo_mark_tan.png" alt= "this should be jocale's logo" width="70px" height="70px">
+      <img src ="images/logo_mark_tan.png" alt= "this should be jocale's logo" width="100px" height="100px">
+        <figcaption> Fig.3 Jocale's logo should never be smaller than 70px by 70px. </figcaption>
+
+    </figure>
+
+</section>
+      </section>
+
+    <section class="element">
+        <h3>Color Palette</h3>
+        <h4>CSS selector:</h4>
+        <p>.balck</p>
+        <p>.dark-blue</p>
+        <p>.tan</p>
+        <h4>Sample code:</h4>
+          <code>  &lt; Div class= "dark-blue" &gt; #2b2c42 (dark blue)  &lt;/div &gt;
+          </code>
+        <h4>Rendered element</h4>
+
+        <Div class= "black"> #000000 (black)
+        </div>
+        <Div class= "dark-blue"> #2b2c42 (dark blue)
+        </div>
+        <Div class= "pale-blue"> #8d99ae (pale blue)
+        </div>
+        <Div class= "beige"> #f0eee2 (beige)
+        </div>
+        <Div class= "tan"> #b4876e (tan)
+        </div>
+
+    </section>
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h6>Interactive Elements</h6>
+
+    <!--  In text link that leads to google -->
+      <section class="element">
+        <h3>In-text link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.in-text-link</p>
+
+        <h4>Sample code:</h4>
+        <code>This is an example of an &lt;a href= "https://www.google.com/"> in-text link that leads to Google. &lt;/a&gt; </code>
+
+        <h4> Rendered element: </h4>
+        <p> This is an example of an <a class="in-text-link" href= "https://www.google.com/"> in-text link that leads to Google. </a> </p>
+
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+
+        <h3>Navigation Link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;input class="button-nav" type="submit" value="Search"&gt;</code>
+
+        <h4>Rendered element:</h4>
+
+        <input class="button-nav" type="submit" value="Search">
+
+      </section>
+
+
+      <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.button-out</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;input type="submit" value="Submit"&gt;
+              &lt;input type="reset"&gt;
+        </code>
+
+
+        <h4>Rendered element</h4>
+        <input class="button-out" type="submit" value="Submit">
+        <input class="button-out" type="reset">
+      </section>
+
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.text-input</p>
+
+        <h4> Sample code:</h4>
+        <code>  &lt;label class="itali"&gt;What are you looking for? &lt;/label&gt;
+       &lt;input id="text-input" type="text"&gt; </code>
+
+        <h4> Rendered element:</h4>
+        <label class="italic"> What are you looking for? </label>
+        <input id="text-input" type="text">
+        <input class="button-out" type="submit" value="Search">
+
+      </section>
+
+
+      <section class="element">
+        <h3>Radio Button with Label</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.color-choices</p>
+
+        <h4>Sample Code</h4>
+        <code> &lt;form&gt;
+            &lt;input type="radio" name="color" id="gold" value="gold"&gt;
+            &lt;label class="color-choices" for="gold"&gt;&lt;/label&gt;
+          &lt;/form&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+
+
+      <h4>Choose your colour:</h4>
+          <form>
+
+            <input type="radio" name="color"  value="silver">
+            <label class="color-choices" >Silver</label>
+            <span class="checkmark"></span>
+
+
+            <input type="radio" name="color" value="gold">
+            <label class="color-choices">Gold</label>
+
+            <input type="radio" name="color"  value="Rose Gold">
+            <label class="color-choices">Rose Gold </label>
+            <input class="button-nav" type="submit" value="Select">
+          </form>
+
+
+
+      </section>
+
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+        <h4> Sample code:</h4>
+         <code> &lt;a href = "https://www.google.com//"&gt;&lt;img src="images/Jacole_Logo.png"alt="this should be an image"&gt; &lt;/a &gt;</code>
+        <h4> Rendered element: </h4>
+        <a href = "https://www.google.com/"><img src="images/jocale_logo.jpg" alt= "this should be jocale logo" width="20%" height="20%"> </a>
+
+      </section>
+
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h6>Text Elements</h6>
+
+    <!-- 4 DIFFERENT HEADINGS // -->
+
+      <section class="element">
+        <h3>Headings</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.italic</p>
+        <p>h1</p>
+        <p>h2</p>
+
+        <h4>Sample code:</h4>
+        <code> &lt;h1&gt;Header 1&lt;/h1&gt; </code>
+
+        <h4>Rendered element:</h4>
+        <h1>Header Level 1 (Playfair Display)</h1>
+        <h2> Header Level 2 (Lato Thin)</h2>
+        <h2 class="italic">Header Level 2 (Lato Thin Italic)</h2>
+        <h3>Header Level 3 (Lato Bold)</h3>
+        <h3 class="italic">Header Level 3 (Lato Bold Italic)</h3>
+        <h4>Header Level 4 (Playfair Display)</h4>
+        <h4 class="italic">Header Level 4 (Playfair Display Italic)</h4>
+
+
+        <h1> jocale. (this is h1)</h1>
+        <p>Header 1 is used for our branding name at the top of our pages.</p>
+
+
+
+        <h4> Choose your colour: (this is h4)</h4>
+        <p> Header 4 is used for titling colour or any options</p>
+
+
+
+        <ol>
+          <li> Gold</li>
+          <li> Silver</li>
+          <li> Rose Gold</li>
+        </ol>
+        <p>Header 2 Italic is used to list the options. </p>
+
+
+
+</section>
+
+      </section>
+
+      <!-- TYPE EXAMPLE// -->
+
+      <section class= "element">
+        <h3>Typography</h3>
+
+        <h4>Rendered element:</h4>
+        <h4>Font: Playfair Display</h4>
+        <h4> Aa Bb Cc Dd Ee Fe Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp </h4>
+        <h4> Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz 1 2 3 4 5 6 7 8 9 0</h4>
+        <h3>Font: Lato </h3>
+        <h3> Aa Bb Cc Dd Ee Fe Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp </h3>
+        <h3> Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz 1 2 3 4 5 6 7 8 9 0</h3>
+
+
+
+      </section>
+
+     <!-- PARAGRAPH EXAMPLE// -->
+
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.p</p>
+
+        <h4>Sample code:</h4>
+        <code> &lt;p&gt;This is a paragraph.&lt;/p&gt; </code>
+
+        <h4> Rendered element: </h4>
+        <p> We believe luxury should be accessible, fun, and part of your everyday. Our inspiration comes from you; real, smart, mindful women. We work with top jewelers, who commit to exceptional craftsmanship and ethical practices, to produce quality essentials. We free ourselves from middlemen and sell directly to you, so, we can provide fine jewelry at a fraction of the price. It is our mission to have women embrace a daily dose of luxury. </p>
+        <p> Thank you for visiting JOCALE. </p>
+
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+
+        <h4>CSS selector</h4>
+        <p>.list-numbered</p>
+
+        <h4>Sample code</h4>
+        <code>
+          &lt;ol&gt;
+            &lt;li&gt; item 1&lt;/li&gt;
+            &lt;li&gt; item 2&lt;/li&gt;
+            &lt;li&gt; item 3&lt;/li&gt;
+          &lt;/ol&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+        <ol>
+          <li> Gold Hoop Earrings</li>
+          <li> Rose Gold Diamon Necklace</li>
+          <li> Rose Gold Diamond Ring</li>
+        </ol>
+      </section>
+
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h6>Combined Elements</h6>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+        <h4>CSS selector:</h4>
+
+        <p>.active/p>
+        <p>.ul</p>
+        <p>.li</p>
+
+
+
+        <h4>Rendered element:</h4>
+        <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#FAQ">FAQ</a></li>
+          <li><a href="#cart">Cart</a></li>
+        </ul>
+
+
+      </section>
+    </section>
+
+      <section class="element">
+        <h3>Product/Service Listing</h3>
+
+        <h4>Rendered element:</h4>
+
+        <h4>Item Descriptions:</h4>
+        <h4>CSS selector:</h4>
+        <p>.product-1</p>
+        <p>.item-info</p>
+
+        <h4>Rendered element:</h4>
+
+
+
+      <div class="product-1">
+        <img src ="images/necklace_3.jpg" alt= "this should bea diamond necklace" width="30%" height="30%">
+
+        <h4 class="product"> Pave Heart Necklace</h4>
+        <h2 class="item-info"> 14k Yellow Gold, Diamond </h2>
+        <h2 class="item-info"> $384 CAD </h2>
+        <a class="button-nav" href="#">Add to Cart</a>
+      </div>
+
+      <div class="product-1">
+        <img src ="images/flower_necklace.jpg" alt= "this should bea diamond necklace" width="30%" height="30%">
+
+        <h4 class="product"> Flower Necklace</h4>
+        <h2 class="item-info"> 14k Yellow Gold, Diamond </h2>
+        <h2 class="item-info"> $380 CAD </h2>
+        <a class="button-nav" href="#">Add to Cart</a>
+      </div>
+
+        <p>  <a class="in-text-link" href= "https://www.sfu.ca/~mta89/P01_Jocale%20Style%20Guide%20V1/products.html"> CLICK HERE FOR FULL PRODUCT STYLE PAGE </a> </p>
+
+        <h4 class="materials" > Details & Materials </h4>
+
+          <p>Our diamonds are high-quality (SI 1-2 clarity) and ethically sourced from conflict-free suppliers who follow socially responsible practices, making it both conscious and durable.</p>
+          <p>Our 14k solid gold pieces are made to last forever. Since gold is a precious metal, it scratches less, doesn’t bend or wear out easily and won’t oxidize so you can wear it everyday and everywhere - even the shower.</p>
+
+
+    </section>
+
+
+
+    <section class="element">
+      <h3>Checkout & Payment Form</h3>
+
+      <h4>Rendered element:</h4>
+
+      <h4 class="info">Shipping Address</h4>
+
+      <label class="info"> Enter name: </label>
+      <input type="text" placeholder="John Doe"><br>
+
+      <label class="info"> Enter Address: </label>
+      <input type="text" placeholder="123 parker st."> <br>
+
+      <label class="info" > Enter City: </label>
+      <input type="text" placeholder="Vancouver"> <br>
+      <label class="info" > Enter Postal Code: </label>
+      <input type="text" placeholder="V5K 2V7"><br><br>
+
+      <h4 class="italic">Payment</h4>
+
+      <label class="info"> Name on card: </label>
+      <input type="text" placeholder="John M. Doe"><br>
+      <label class="info"> Enter credit card #:  </label>
+      <input type="text" placeholder="4500 3819 1298"><br>
+      <label class="info"> Enter exp. date: </label>
+      <input type="text" placeholder="09/21"><br>
+
+
+        <div class="container">
+          <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
+          <p><a href="#">Heart Necklace</a> <span class="price">$250</span></p>
+          <p><a href="#">Diamond Cuff</a> <span class="price">$320</span></p>
+          <p><a href="#">Star Stud</a> <span class="price">$130</span></p>
+          <hr>
+          <p>Total <span class="price" style="color:black"><b>$700</b></span></p>
+            <input type="submit" value="Checkout" class="button-out">
+        </div>
+
+
+         <p>  <a class="in-text-link" href= "https://www.sfu.ca/~mta89/P01_Jocale%20Style%20Guide%20V1/checkout.html"> CLICK HERE FOR FULL CHECKOUT & PAYMENT STYLE PAGE </a> </p>
+
+    </section>
+
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+
+    <section id="citations">
+      <h2>Citations</h2>
+    <p> Base codes from SFU IAT 339 class</p>
+    <p>stackoverflow. CSS. Retreived from: https://www.w3schools.com</p>
+    <p>Łukasz Dziedzic.Lato. google Fonts.Retrieved from: https://fonts.google.com/specimen/Lato</p>
+    <p>Claus Eggers Sørensen. Playfair Display. Google Fonts. Retreived from: https://fonts.google.com/specimen/Playfair+Display?selection.family=Playfair+Display </p>
+    <p> CSS-TRICKS. font-weight. Retreived from: https://css-tricks.com/almanac/properties/f/font-weight/</p>
+    <p> Mejuri. Photos retrieved from: https://www.instagram.com/mejuri/</p>
+    <p>W3scjools. W3 Schools. Retrieved from: https://www.w3schools.com</p>
+
+
+    </section>
+
+
+</header>
+  </body>
+</html>
